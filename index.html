@@ -1,43 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>About Me</title>
-    <style>
-        body {font-family: Arial, sans-serif; margin: 2rem; line-height: 1.6; }
-        header { text-align: center; margin-bottom: 2rem; }
-        h1 { margin: 0; }
-        .repo-list { list-style: none; padding: 0; }
-        .repo-list li { margin: 0.5rem 0; }
-        a { color: #0066cc; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Keval Shah - Portfolio</title>
+  <!-- Google Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 2rem;
+      font-family: Calibri, sans-serif;
+      background: #fdfdfd;
+      color: #222;
+      line-height: 1.6;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 0.2em;
+    }
+    h2 {
+      font-size: 1.2em;
+      font-weight: normal;
+      margin-top: 0;
+      color: #555;
+    }
+    p {
+      margin: 1em 0;
+    }
+    .links {
+      margin: 1.5em 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1em;
+      align-items: center;
+    }
+    .links a {
+      color: #0073e6;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.3em;
+    }
+    .links a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      margin: 0.8em 0 0 1em;
+      padding: 0;
+    }
+    ul li {
+      margin: 0.4em 0;
+    }
+    @media (max-width: 480px) {
+      .links {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Keval Shah</h1>
-        <p>Software Engineer • Data Specialist • Lifelong learner</p>
-    </header>
+  <h1>KEVAL SHAH</h1>
+  <h2>Data Scientist | Software Engineer</h2>
+  <p>Advanced Analytics and Visualization with Python, R and SQL</p>
 
-    <section>
-        <h2>About Me</h2>
-        <p>
-            I build data-driven projects that are analytically insightful and visually pleasing.
-            My interests include JavaScript, Python, and cloud infrastructure.
-        </p>
-    </section>
+  <div class="links">
+    <a href="https://github.com/kev-notes" target="_blank">
+      <span class="material-icons">code</span> GitHub
+    </a>
+    <a href="https://www.linkedin.com/in/kevalshah-data/" target="_blank">
+      <span class="material-icons">business_center</span> LinkedIn
+    </a>
+    <a href="mailto:keval@tuta.io">
+      <span class="material-icons">email</span> Email
+    </a>
+  </div>
 
-    <section>
-        <h2>GitHub Repositories</h2>
-        <ul class="repo-list">
-            <li><a href="https://kev-notes.github.io/Portfolio/Weather%20Case%20Study/HW_5_weather_case_study.html" target="_blank">Weather Case Study</a> - Notebook on Weather Case Study for Developer Training.</li>
-            <li><a href="https://github.com/kev-notes/" target="_blank">y</a> – proj-2</li>
-            <li><a href="https://github.com/kev-notes/" target="_blank">z</a> – proj-3</li>
-        </ul>
-    </section>
+  <h3>About Me:</h3>
+  <p>I’m a Data Scientist and Software Engineer with 8+ years of experience in advanced analytics and data visualization. I work as an <strong>independent Data Consultant</strong> and partnered up as a long-term <strong>Data Scientist with <a href="https://jnanaanalytics.com" target="_blank">Jnana Analytics</a></strong>, building analytical platform and modules, NLP/ML solutions, interactive dashboards and several data reports that have supported decision-making for 100+ clients worldwide.</p>
 
-    <footer>
-        <p>© 2025 Keval Shah</p>
-    </footer>
+  <p><strong>My core tools/skills:</strong> I expertise and almost always use Python, R, and SQL with occassional use of JavaScript for custom visualizations, Tableau, and Looker.</p>
+  <p>Beyond technical work, I have led and managed junior developers, trained managers and executives through corporate training, and enjoy turning data into reports and stories that drive real business impact.</p>
+
+  <h3>Hire Me:</h3>
+  <p>I’m open to new, exciting opportunities, including onsite or remote work. I am open to relocate if required.
+  <p>I am also available for consulting or freelance projects.</p>
+  <ul><li>Feel free to <a href="mailto:keval@tuta.io">Email me</a> or message me on <a href="https://www.linkedin.com/in/kevalshah-data/" target="_blank">LinkedIn</a>.</li>
+  <li>You can check out my sample projects here: <a href="https://github.com/kev-notes" target="_blank">Github</a>.</li></ul>
 </body>
+<footer style="margin-top: 2rem; text-align: center; color: #888; font-size: 0.9em;">
+  &copy; 2025 Keval Shah. All rights reserved.
+</footer>
 </html>
